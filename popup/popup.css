@@ -1,0 +1,126 @@
+body {
+  height: 600px;
+  width: 350px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  background-color: indianred;
+}
+
+header {
+  padding: 0;
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+  background: whitesmoke;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+header h1 {
+  font-size: xx-large;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+
+  background-color: rgba(255, 99, 71, 0.288);
+  padding: 0.3rem;
+  text-align: center;
+}
+
+header img {
+  height: 4rem;
+}
+
+.btn-wrapper {
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-wrapper button {
+  padding: 3px;
+  cursor: pointer;
+  border: 1px solid black;
+  font-weight: bold;
+  color: indianred;
+  text-shadow: 1px 1px 1px 1px black;
+  background: white;
+  border-radius: 0.3rem;
+}
+
+.task-container-border {
+  margin-top: 0.5rem;
+  border: 3px solid whitesmoke;
+  background: whitesmoke;
+  border-radius: 0.5rem;
+  max-height: 400px;
+  overflow: auto;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.task-container-border textarea {
+  min-width: 300px;
+  resize: vertical;
+  background: white;
+  height: 1rem;
+}
+
+.task-delete {
+  color: tomato;
+  font-weight: bold;
+  background: white;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.task-text-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  padding: 0.1rem;
+}
+
+.task-text-container:first-child {
+  margin-top: 0.5rem;
+}
+
+.task-text-container:last-child {
+  margin-bottom: 0.5rem;
+}
+
+.options-page {
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.options-page span {
+  text-decoration: none;
+  background: whitesmoke;
+  color: indianred;
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+  box-shadow: 3px 3px 3px 1px black;
+}
+
+footer {
+  text-align: center;
+  font-weight: bold;
+  background: whitesmoke;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0.2rem;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
